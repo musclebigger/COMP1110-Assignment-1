@@ -157,7 +157,7 @@ certain vowel combinations (also known as diphthongs):
 |-------|----------------------------|---------------|
 | **a**, **à** | Like 'ah' in English | /a/ |
 | **â** | Like 'ah' in English, but longer | /ɑ/ |
-| **e** | At the end of a multi-syllable word, is silent | // |
+| **e** | At the end of a word with more than two phonemes (including itself), is silent | // |
 | **e** | At the end of a syllable, like 'a' in 'soda' | /ə/ |
 | **e** | Elsewhere, like 'ai' in 'fairy' | /ɛ/ |
 | **é** | Like 'ey' in 'hey' | /e/ |
