@@ -138,6 +138,7 @@ as some common consonant combinations.
 | **v**  | Like the letter 'v' in English | /v/ |
 | **w**  | Like the letter 'w' in English | /w/ |
 | **x**  | Like the letter 'x' in English | /ks/ |
+| **y**  | Before a vowel, pronounced like 'y' in English | /j/ |
 
 #### Consonants at the end of words
 
@@ -161,8 +162,9 @@ certain vowel combinations (also known as diphthongs):
 | **e** | Elsewhere, like 'ai' in 'fairy' | /ɛ/ |
 | **é** | Like 'ey' in 'hey' | /e/ |
 | **è**, **ê** | Like 'ai' in 'fairy' | /ɛ/ |
-| **i**, **y** | Before another vowel, pronounced like 'y' in English | /j/ |
-| **i**, **y** | Elsewhere, like 'i' in 'meet' | /i/ |
+| **i** | Before another vowel, pronounced like 'y' in English | /j/ |
+| **i** | Elsewhere, like 'i' in 'meet' | /i/ |
+| **y** | If not before a vowel, like 'i' in 'meet' | /i/ |
 | **o** | Like 'au' in 'fault' | /ɔ/ |
 | **ô** | Like the letter 'o' in English, without the final 'u' sound | /o/ |
 | **u** | Similar to the 'ew' in 'few'; as suggested by [this website](https://www.talkinfrench.com/french-pronunciation-guide/#tab-con-1), try pronouncing 'ee' with rounded lips | /y/ |
