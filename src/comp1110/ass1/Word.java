@@ -285,7 +285,37 @@ public class Word {
      */
     public static void removeDoubles(Syllable[] syllables) {
         // FIXME Task 2 complete this method
-    }
+
+        for(int i=0; i<syllables.length; i++){
+            if (syllables[i] == syllables[syllables.length-1]){
+                if (syllables[i].phonemes.length>1){
+                    for (int iii=0;iii<syllables[i].phonemes.length;iii++){
+                        if (syllables[i].phonemes[iii] == syllables[i].phonemes[syllables[i].phonemes.length-1]){
+                            continue;
+                        }
+                        if (syllables[i].phonemes[iii+1].sound == syllables[i].phonemes[iii].sound){
+                            syllables[i].phonemes[iii].sound = "";
+                        }
+                    }
+                };
+            }else{
+                if (syllables[i].phonemes[syllables[i].phonemes.length-1].sound == syllables[i+1].phonemes[0].sound){
+                    syllables[i].phonemes[syllables[i].phonemes.length-1].sound = "";
+                }
+                if (syllables[i].phonemes.length>1){
+                    for (int ii=0;ii<syllables[i].phonemes.length;ii++){
+                        if (syllables[i].phonemes[ii] == syllables[i].phonemes[syllables[i].phonemes.length-1]){
+                            continue;
+                        }
+                        if(syllables[i].phonemes[ii+1].sound == syllables[i].phonemes[ii].sound){
+                            syllables[i].phonemes[ii].sound = "";
+                        }
+                    }
+                }
+            }
+        }
+    };
+
 
     /**
      * Returns the string form of a transcribed Syllable.
