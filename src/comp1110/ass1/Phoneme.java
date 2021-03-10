@@ -278,7 +278,11 @@ public class Phoneme {
      */
     public void evaluate() {
         // FIXME Task 1 complete this method
-        this.sound = "a";
+        for (int i=0; i<BASIC_CHRS.length; i++){
+            if (BASIC_CHRS[i].getId() == this.getId()){
+                 this.sound = BASIC_SOUNDS[i];
+            }
+        }
     }
 
 }
