@@ -256,8 +256,16 @@ public class Word {
      */
     public static Syllable[] splitIntoSyllables(Phoneme[] ps) {
         // FIXME Task 4 complete this method
-        return new Syllable[]{new Syllable(ps)};
+        Phoneme [][] Broken = Word.breakIntoSyllables(ps);
+        Syllable[] result = new Syllable[Broken.length];
+        int i=0;
+        for(Phoneme[] ii:Broken){
+            result[i] = new Syllable(ii);
+            i++;
+        }
+        return result;
     }
+
 
     /**
      * Takes a given array of syllables, and for each syllable that has no
