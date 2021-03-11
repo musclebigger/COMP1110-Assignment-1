@@ -4,7 +4,7 @@ public class Phoneme {
 
     /* The maximum length of any valid combination of character(s)
      * (as enumerated in the below lookup tables). */
-    public static final int MAX_PHONEME_LENGTH = 1;
+    public static final int MAX_PHONEME_LENGTH = 5;
 
     /**
      * The String of one or more French characters that defines this phoneme.
